@@ -11,8 +11,7 @@ class Solution:
             elif height[l] > height[r]:
                 r -= 1
             else:
-                while height[l] == height[r] and l < r:
-                    l += 1
+                r -= 1
 
         return result
         
